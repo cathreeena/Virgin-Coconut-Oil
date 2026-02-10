@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(252, 224, 202);
+}
+header{
+    text-align: center;
+    background-color: rgb(240, 202, 185);
+    box-shadow: 0px 0px 25px rgb(160, 102, 102);
+    padding: 10px;
+}
+nav a{
+    padding: 5px 15px;
+    color: rgb(168, 121, 121);
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: rgb(255, 212, 212);
+    background-color: rgb(160, 102, 102);
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 10px rgb(138, 66, 38);
+    transition: 0.55 ;
+}
+
+.description{
+    width: 40%;
+    margin-left: 50px;
+    color: rgb(121, 75, 40);
+}
+
+.home{
+    background-image: url('bg4.jpg');
+    height: 600px;
+    background-size: cover;
+    padding: 100px;
+}

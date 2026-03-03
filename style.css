@@ -16,17 +16,25 @@ nav a{
 
 nav a:hover{
     color: rgb(255, 212, 212);
-    background-color: rgb(160, 102, 102);
+    background-image: var(--gradient);
     border-radius: 30px 30px 30px 30px;
     box-shadow: 0px 0px 10px rgb(138, 66, 38);
     transition: 0.55 ;
 }
 
-.description{
-    width: 40%;
-    margin-left: 50px;
-    color: rgb(121, 75, 40);
+.descriptionhome a {
+    background-color: rgb(199, 83, 83);
+    color: rgb(240, 185, 183);
+    padding: 8px 10px;
+    border-radius: 15px 15px 15px;
 }
+ .descriptionhome a:hover{
+    color: rgb(145, 67, 67);
+    background-color: rgb(95, 20, 20);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px rgb(138, 66, 38);
+    transition: 0.3s;
+ }
 
 .home{
     background-image: url('bg4.jpg');
@@ -34,3 +42,42 @@ nav a:hover{
     background-size: cover;
     padding: 100px;
 }
+ :root {
+            --gradient: linear-gradient(90deg,
+                    rgb(196, 55, 20),
+                    rgba(218, 72, 61, 0.911),
+                    rgb(219, 145, 145),
+                    rgb(245, 204, 204),
+                    rgb(228, 143, 143),
+                    rgb(182, 85, 85),
+                    rgb(134, 38, 9));
+ }
+
+
+
+ .about{
+    height: 800px;
+    background-color: rgb(255, 234, 207);
+ }
+
+ .containerabout{
+    background-color: rgb(255, 151, 151);
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+ }
+
+ .containerabout img{
+    height: 200px;
+ }
+ h1{
+    color:rgb(134, 38, 9);
+ }
+ h2{
+    color: rgb(82, 32, 32);
+ }
+ h3{
+    color: rgb(100, 29, 20);
+ }
